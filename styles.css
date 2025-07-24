@@ -1,0 +1,163 @@
+/* Genel Stil */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #28a745;
+    padding: 15px 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('bp-petrol.jpg') no-repeat center center; /* Göreli dosya yolu kullanıldı */
+    background-size: cover;
+    color: white;
+    padding: 100px 20px; /* Padding değerini biraz daha dengeleyerek farklı ekran boyutlarında uyum sağladım */
+    text-align: center;
+    height: 100vh; /* Ekranın tamamını kaplamak için 'vh' kullanıldı */
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero h2 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.3em;
+    margin: 20px 0;
+}
+
+.cta-btn {
+    background-color: #fff;
+    color: #28a745;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 50px;
+    background-color: #f1f1f1;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 2em;
+    }
+    
+    .hero p {
+        font-size: 1.1em;
+    }
+    
+    .cta-btn {
+        padding: 12px 25px;
+        font-size: 1.1em;
+    }
+}
+/* Hero Section */
+.hero {
+    background: url('bp-petrol.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    height: 400px;
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero h2 {
+    font-size: 3em;
+    font-weight: bold;
+    color: red; /* Burada renk kırmızıya ayarlandı */
+}
+
+.hero p {
+    font-size: 1.3em;
+    margin: 20px 0;
+}
+
+.cta-btn {
+    background-color: #fff;
+    color: #28a745;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #28a745;
+    color: white;
+}
